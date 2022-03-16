@@ -1,0 +1,33 @@
+/* You can add global styles to this file, and also import other style files */
+//@import '~@angular/material/pebuilt-themes/deeppurple-amber.css';
+@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+
+
+
+@import '../node_modules/font-awesome/scss/font-awesome';
+
+//some basic resets
+
+body {
+    padding : 0;
+    margin: 0;
+    font-family: Roboto , sans-serif;
+}
+.container {
+    margin: 20px;
+    display:flex;
+}
+.flex-spacer{
+flex: 1 1 auto;
+}
+
+
+.highlight {
+    background-color:aliceblue;
+    border: 1px solid royalblue;
+    z-index: 1;
+    transform: scale(1.01);
+}
+
+/* Importing Bootstrap SCSS file. */
+@import '~bootstrap/scss/bootstrap';
